@@ -1,6 +1,6 @@
 // Parameters
 @description('Specifies the name of the Application Gateway for Containers.')
-param name string = 'dummy'
+param name string = 'AzContainerApp'
 
 @description('Specifies whether the Application Gateway for Containers is managed or bring your own (BYO).')
 @allowed([

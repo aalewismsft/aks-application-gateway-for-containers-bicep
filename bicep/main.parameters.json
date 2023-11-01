@@ -30,7 +30,7 @@
       "value": "azadmin"
     },
     "aksClusterSshPublicKey": {
-      "value": "<ssh-public-key>"
+      "value": "AAAAB3NzaC1yc2EAAAADAQABAAABgQDdH6z+RnF4BxuT767fZkOv+CfehVomlhRz+fWO4Sehqg48+2Y4ZwaUNaAoLoHVvRJHk+cVuvj0Tk9hIG/M6Njp9x0A440jnGAfggno2A2lGZE+b4+lfuJap6XYad1i/yUjd2pQrbQT/drakmdm55sEv+eJePyhhNAd+gxfXRxnwIzyPQkQK64YVW53CU6hoyV8bO08HdUmLYqludxcqBQA1rukLUK9WdvRO4aI+k4nw5LQmcZrSYXv3a2P1b96JCqDQH0QfEDlkrf/vXSjzkv8W+71yCNMz2oCTmxJ/4wdQdNk5Nx8NbWlq9G+Ggjb09Wi6dQGdKePuqXWI7XSP0YAyQypVWyJQ/5vm/mn6c6rb1lRaNPg36g3gTlFWHbSG2rceoJGKIjbC4fIPS9Zdh4v06Bt6ZYPhyeIbEpGxLB8egVLaRCNKx22xvcw8vyKGAmFzk6edE2G9iZWSZAeDJJcbzYJ5UK3BDrIl30dGvcjpriq8xw5LSoLTUEzM9WoNTk="
     },
     "aksClusterMonitoringEnabled": {
       "value": true
@@ -43,7 +43,7 @@
     },
     "aadProfileAdminGroupObjectIDs": {
       "value": [
-        "<admins-aad-security-group-object-id>"
+        "7f0975c1-6248-4fed-974d-0f1443c32a1d"
       ]
     },
     "systemAgentPoolName": {
@@ -194,7 +194,7 @@
       "value": "azadmin"
     },
     "vmAdminPasswordOrKey": {
-      "value": "<ssh-public-key>"
+      "value": "@zadmin@123!"
     },
     "diskStorageAccountType": {
       "value": "Premium_LRS"
@@ -219,7 +219,7 @@
     },
     "keyVaultObjectIds": {
       "value": [
-        "<aad-security-group-or-account-object-id>"
+        "7f0975c1-6248-4fed-974d-0f1443c32a1d"
       ]
     },
     "openServiceMeshEnabled": {
