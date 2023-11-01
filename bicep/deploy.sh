@@ -23,7 +23,7 @@ acrResourceGroupName="$aksResourceGroupName"
 acrSku="Premium"
 
 # Name of Key Vault
-keyVaultName="${prefix}KeyVault"
+keyVaultName="${prefix}KeyVault01"
 
 # Name of the Log Analytics
 logAnalyticsWorkspaceName="${prefix}LogAnalytics"
