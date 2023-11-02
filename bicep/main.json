@@ -1069,7 +1069,7 @@
     },
     "workloadIdentityEnabled": {
       "type": "bool",
-      "defaultValue": true,
+      "defaultValue": false,
       "metadata": {
         "description": "Specifies whether to enable Workload Identity. The default value is false."
       }

@@ -50,7 +50,7 @@
       "value": "system"
     },
     "systemAgentPoolVmSize": {
-      "value": "Standard_D4s_v3"
+      "value": "Standard_D4ads_v5"
     },
     "systemAgentPoolOsDiskSizeGB": {
       "value": 80
@@ -73,7 +73,7 @@
       "value": "user"
     },
     "userAgentPoolVmSize": {
-      "value": "Standard_D4s_v3"
+      "value": "Standard_D4ads_v5"
     },
     "userAgentPoolOsDiskSizeGB": {
       "value": 80
@@ -176,7 +176,7 @@
       "value": "TestVm"
     },
     "vmSize": {
-      "value": "Standard_F4s_v2"
+      "value": "Standard_D4ads_v5"
     },
     "imagePublisher": {
       "value": "Canonical"
@@ -194,7 +194,7 @@
       "value": "azadmin"
     },
     "vmAdminPasswordOrKey": {
-      "value": "@zadmin@123!"
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDNs0v0pjLmsaRap2Q819gRwCb/vYJJOoVJH0a1dkCApSs32jqKju9nXecxm449Jc7Ek6PmKUP51tVMCJD2PXbwGY62cXiCLAol3K8BHYE9BG84YKVk3dzUYQ3WEauPAZIKjceMK3Yoax1PwQVtBRPCm29Kei4YfPo8iB0xQ6A7lWgPzSaVlOxu8zYEkVUb502x7/VVa1ccBgzcqpb93LxnWTpg7xpAXM7VXULaMi7eh5UQlh6PYCQYBZjoR86g0nCe1Or/vOCxnD+gq21JtIbmeNDH29zYL7r1pXkR5DG7T6nUfaTin4reTrn8G6LTBF57c9dxBfclCBTAvoF+2ZZrKuijVGo+hJiRgCt320C9k0l6iOi+uwwn+Az6NqFRKnmZ2BU4gqIQlEEBB2LFBN58MAZ3T02Sqq+/b/bMMprdjxAn5hnjrvkBqmo9rFkdFKt4WBpMw4hs1rEhDaAFOdYHRRZBI7tphtcWi8qF+wK1xE//sf8RAE9pz1M01v6j2pk= generated-by-azure"
     },
     "diskStorageAccountType": {
       "value": "Premium_LRS"
@@ -295,7 +295,7 @@
       "value": true
     },
     "workloadIdentityEnabled": {
-      "value": true
+      "value": false
     },
     "oidcIssuerProfileEnabled": {
       "value": true
@@ -304,7 +304,7 @@
       "value": true
     },
     "actionGroupEmailAddress": {
-      "value": "paolos@microsoft.com"
+      "value": "admin@MngEnvMCAP856480.onmicrosoft.com"
     },
     "windowsAgentPoolEnabled": {
       "value": true
